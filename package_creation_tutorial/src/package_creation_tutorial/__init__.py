@@ -1,6 +1,7 @@
-
 from .string_ops import reverse_string, count_vowels, capitalize_words
 
-def hello():
-    return "Bonjour depuis le package_creation_tutorial !"
+__all__ = ["reverse_string", "count_vowels", "capitalize_words"]
 
+
+def hello():
+    print("Hello, World!")
