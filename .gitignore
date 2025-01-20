@@ -1,0 +1,14 @@
+# .gitignore
+
+# Environnement Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Autres fichiers spécifiques
+.vscode/
+.DS_Store
+
+# Ignorer le dossier venv
+venv/
