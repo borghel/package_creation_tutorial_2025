@@ -17,10 +17,9 @@ class TestStringOps(unittest.TestCase):
         self.assertEqual(count_vowels("hello"), 2)
         self.assertEqual(count_vowels("AEIOU"), 5)
 
-    def test_capitalize_words(self):
+    def test_capitalize_words_failing(self):
         """Test the capitalize_words function."""
-        self.assertEqual(capitalize_words("hello world"), "Hello World")
-        self.assertEqual(capitalize_words("python prog"), "Python Prog")
+        self.assertEqual(capitalize_words("summer"), "summer")
 
 
 if __name__ == '__main__':
