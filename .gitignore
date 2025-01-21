@@ -12,3 +12,13 @@ __pycache__/
 
 # Ignorer le dossier venv
 venv/
+
+# Ignorer les fichiers de distribution
+dist/
+
+# Ignorer les fichiers générés de la documentation
+docs/build/
+
+# Autres fichiers à ignorer
+*.whl
+*.tar.gz
