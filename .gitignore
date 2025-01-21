@@ -11,6 +11,7 @@ __pycache__/
 .DS_Store
 
 # Ignorer le dossier venv
+<<<<<<< HEAD
 venv/
 
 # Ignorer les fichiers de distribution
@@ -22,3 +23,6 @@ docs/build/
 # Autres fichiers à ignorer
 *.whl
 *.tar.gz
+=======
+venv/
+>>>>>>> 3bae0b3 (Résolution des conflits avec corrections des hooks)
